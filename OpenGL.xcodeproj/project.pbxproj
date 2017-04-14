@@ -15,6 +15,7 @@
 		DD8D7AC71E9E72D1001C2590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8D7AC51E9E72D1001C2590 /* LaunchScreen.storyboard */; };
 		DD8D7AD21E9E72D1001C2590 /* OpenGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D7AD11E9E72D1001C2590 /* OpenGLTests.m */; };
 		DD8D7ADD1E9E72D1001C2590 /* OpenGLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D7ADC1E9E72D1001C2590 /* OpenGLUITests.m */; };
+		DD8D7AEC1E9E7490001C2590 /* MyGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D7AEB1E9E7490001C2590 /* MyGLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DD8D7AD81E9E72D1001C2590 /* OpenGLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8D7ADC1E9E72D1001C2590 /* OpenGLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLUITests.m; sourceTree = "<group>"; };
 		DD8D7ADE1E9E72D1001C2590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8D7AEA1E9E7490001C2590 /* MyGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGLView.h; sourceTree = "<group>"; };
+		DD8D7AEB1E9E7490001C2590 /* MyGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				DD8D7AC51E9E72D1001C2590 /* LaunchScreen.storyboard */,
 				DD8D7AC81E9E72D1001C2590 /* Info.plist */,
 				DD8D7AB71E9E72D1001C2590 /* Supporting Files */,
+				DD8D7AEA1E9E7490001C2590 /* MyGLView.h */,
+				DD8D7AEB1E9E7490001C2590 /* MyGLView.m */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD8D7ABF1E9E72D1001C2590 /* ViewController.m in Sources */,
+				DD8D7AEC1E9E7490001C2590 /* MyGLView.m in Sources */,
 				DD8D7ABC1E9E72D1001C2590 /* AppDelegate.m in Sources */,
 				DD8D7AB91E9E72D1001C2590 /* main.m in Sources */,
 			);
